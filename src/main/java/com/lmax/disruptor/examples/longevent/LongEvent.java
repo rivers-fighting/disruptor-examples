@@ -1,6 +1,6 @@
 package com.lmax.disruptor.examples.longevent;
 
-/** @author Bonree */
+/** @author xiechongkai */
 // tag::example[]
 public class LongEvent {
   private long value;

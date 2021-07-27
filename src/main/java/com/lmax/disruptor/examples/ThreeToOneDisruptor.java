@@ -5,7 +5,7 @@ import com.lmax.disruptor.EventHandler;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.util.DaemonThreadFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class ThreeToOneDisruptor {
   public static class DataEvent {
     Object input;

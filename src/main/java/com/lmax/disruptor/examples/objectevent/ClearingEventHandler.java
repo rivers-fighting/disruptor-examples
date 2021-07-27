@@ -3,7 +3,7 @@ package com.lmax.disruptor.examples.objectevent;
 // tag::example[]
 import com.lmax.disruptor.EventHandler;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class ClearingEventHandler<T> implements EventHandler<ObjectEvent<T>> {
   @Override
   public void onEvent(ObjectEvent<T> event, long sequence, boolean endOfBatch) {

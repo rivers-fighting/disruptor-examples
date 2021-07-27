@@ -2,7 +2,7 @@ package com.lmax.disruptor.examples.longevent;
 
 import com.lmax.disruptor.EventFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 // tag::example[]
 public class LongEventFactory implements EventFactory<LongEvent> {
   @Override

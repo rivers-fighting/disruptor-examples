@@ -6,7 +6,7 @@ import com.lmax.disruptor.examples.longevent.LongEvent;
 
 import java.nio.ByteBuffer;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class LongEventProducer {
   private final RingBuffer<LongEvent> ringBuffer;
 

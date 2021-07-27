@@ -6,7 +6,7 @@ import com.lmax.disruptor.RingBuffer;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.util.DaemonThreadFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class Pipeliner {
   public static void main(final String[] args) {
     Disruptor<PipelinerEvent> disruptor =

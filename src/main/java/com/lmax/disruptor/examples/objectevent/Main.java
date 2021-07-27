@@ -3,7 +3,7 @@ package com.lmax.disruptor.examples.objectevent;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.util.DaemonThreadFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 @SuppressWarnings("unchecked")
 public class Main {
   private static final int BUFFER_SIZE = 1024;

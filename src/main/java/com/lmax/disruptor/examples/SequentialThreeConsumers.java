@@ -3,7 +3,7 @@ package com.lmax.disruptor.examples;
 import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.util.DaemonThreadFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class SequentialThreeConsumers {
   private static class MyEvent {
     private Object a;

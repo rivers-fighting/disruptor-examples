@@ -7,7 +7,7 @@ import com.lmax.disruptor.dsl.Disruptor;
 import com.lmax.disruptor.examples.support.LongEvent;
 import com.lmax.disruptor.util.DaemonThreadFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class WaitForProcessing {
   public static class Consumer implements EventHandler<LongEvent> {
     @Override

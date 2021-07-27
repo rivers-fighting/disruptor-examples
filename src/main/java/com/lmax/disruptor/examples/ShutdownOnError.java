@@ -9,7 +9,7 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class ShutdownOnError {
   private static class Event {
     public long value;

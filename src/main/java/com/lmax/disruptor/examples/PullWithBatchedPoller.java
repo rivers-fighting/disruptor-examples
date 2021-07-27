@@ -8,7 +8,7 @@ import com.lmax.disruptor.RingBuffer;
  * Alternative usage of EventPoller, here we wrap it around BatchedEventPoller to achieve
  * Disruptor's batching. this speeds up the polling feature
  *
- * @author Bonree
+ * @author xiechongkai
  */
 public class PullWithBatchedPoller {
   public static void main(final String[] args) throws Exception {

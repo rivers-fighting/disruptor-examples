@@ -9,7 +9,7 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
 
 import java.nio.ByteBuffer;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class LongEventMain {
   public static void handleEvent(LongEvent event, long sequence, boolean endOfBatch) {
     System.out.println(event);

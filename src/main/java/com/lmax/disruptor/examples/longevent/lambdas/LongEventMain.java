@@ -9,7 +9,7 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
 
 import java.nio.ByteBuffer;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class LongEventMain {
   public static void main(String[] args) throws Exception {
     int bufferSize = 1024; // <1>

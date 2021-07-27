@@ -4,7 +4,7 @@ import com.lmax.disruptor.EventFactory;
 import com.lmax.disruptor.EventPoller;
 import com.lmax.disruptor.RingBuffer;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class PullWithPoller {
   public static class DataEvent<T> {
     T data;

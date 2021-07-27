@@ -10,7 +10,7 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class WaitForShutdown {
   private static volatile int value = 0;
 

@@ -12,7 +12,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class DynamicallyAddHandler {
   private static class DynamicHandler implements EventHandler<StubEvent>, LifecycleAware {
     private final CountDownLatch shutdownLatch = new CountDownLatch(1);

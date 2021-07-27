@@ -2,7 +2,7 @@ package com.lmax.disruptor.examples.support;
 
 import com.lmax.disruptor.EventFactory;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class LongEvent {
   public static final EventFactory<LongEvent> FACTORY = LongEvent::new;
 

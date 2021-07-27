@@ -10,7 +10,7 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
 
 import java.nio.ByteBuffer;
 
-/** @author Bonree */
+/** @author xiechongkai */
 public class LongEventMain {
   public static void main(String[] args) throws Exception {
     LongEventFactory factory = new LongEventFactory();
